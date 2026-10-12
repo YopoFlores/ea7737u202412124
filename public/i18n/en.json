@@ -1,0 +1,46 @@
+{
+  "layout": {
+    "title": "UrbanFit Sports Center Management Platform",
+    "options": {
+      "home": "Home",
+      "new-reservation": "New Reservation"
+    }
+  },
+  "home": {
+    "title": "Home",
+    "content": "Smart Reservations and Capacity Management for Sports Centers.",
+    "my-centers": "My Sports Centers",
+    "total-participants": "Total Participants",
+    "available-capacity": "Available Capacity"
+  },
+  "activities": {
+    "fitness": "Fitness",
+    "yoga": "Yoga",
+    "swimming": "Swimming",
+    "cycling": "Cycling"
+  },
+  "common": {
+    "empty": "Empty",
+    "loading": "Loading...",
+    "load-error": "Could not load sports centers.",
+    "retry": "Retry",
+    "close": "Close"
+  },
+  "reservation": {
+    "title": "New Reservation",
+    "subtitle": "Register Participants at Your Sports Center",
+    "activity": "Activity Type",
+    "name": "Participant Name",
+    "participants": "Participants",
+    "invalid-name": "Enter a non-blank name.",
+    "invalid-count": "Enter a positive whole number.",
+    "center": "Sports Center",
+    "weather-loading": "Checking current weather...",
+    "temperature": "Current Temperature",
+    "weather-error": "Weather unavailable. Retry before saving.",
+    "capacity-error": "Not enough available capacity.",
+    "save-error": "Could not save the reservation.",
+    "cancel": "Cancel",
+    "create": "Create"
+  }
+}
