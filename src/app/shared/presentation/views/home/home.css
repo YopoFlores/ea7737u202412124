@@ -1,0 +1,9 @@
+.home h1 {
+  font: var(--mat-sys-headline-medium);
+  margin: 0;
+}
+
+.content {
+  margin: 8px 0 24px;
+  color: var(--mat-sys-on-surface-variant);
+}
