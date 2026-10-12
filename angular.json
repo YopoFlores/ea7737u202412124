@@ -26,7 +26,11 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/material-theme.scss"
+            ],
+            "polyfills": [
+              "zone.js"
             ]
           },
           "configurations": {
