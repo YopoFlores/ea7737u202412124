@@ -1,0 +1,12 @@
+<div class="layout">
+  <mat-toolbar class="toolbar"><a routerLink="/home" class="brand" aria-label="UrbanFit Home">
+    <img src="/urbanfit-logo.svg" alt="UrbanFit logo" width="40" height="40">
+    <span class="brand-name">{{'layout.title'|translate}}</span></a>
+    <span class="toolbar-spacer"></span><app-language-switcher/>
+  </mat-toolbar><mat-sidenav-container class="shell">
+  <mat-sidenav mode="side" opened aria-label="Main navigation">
+    <mat-nav-list>@for(option of options;track option.link){<a mat-list-item [routerLink]="option.link">{{option.label|translate}}</a>}</mat-nav-list></mat-sidenav><mat-sidenav-content class="page-content">
+  <router-outlet/>
+</mat-sidenav-content>
+</mat-sidenav-container>
+</div>
