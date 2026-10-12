@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global styles */
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.centers-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.center-card{height:100%}.center-card mat-card-content{flex:1;padding-top:16px}.center-card mat-card-actions{display:flex;flex-direction:column;align-items:flex-start;gap:6px;padding:16px}.reservations{min-height:55px}@media(max-width:750px){.centers-grid{grid-template-columns:1fr}}

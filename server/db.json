@@ -69,6 +69,15 @@
       "participants": 30,
       "weatherTemperature": 21.2,
       "reservedAt": "2026-10-10T12:00:00-05:00"
+    },
+    {
+      "sportsCenterId": 2,
+      "activityType": "yoga",
+      "participantName": "asdadasd",
+      "participants": 1,
+      "weatherTemperature": 24.3,
+      "reservedAt": "2026-10-12T14:09:23.463Z",
+      "id": 5
     }
   ]
 }
